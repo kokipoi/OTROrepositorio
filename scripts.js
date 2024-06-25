@@ -57,8 +57,7 @@ function mostrarErrores(errores) {
 }
 
 function mostrarNotificacion() {
-    var mensaje1 = "¡El formulario ha sido enviado con éxito!"
-    alert(mensaje1);
+    alert("¡El formulario ha sido enviado con éxito!");
 }
 
     document.getElementById("enviar").addEventListener("click", function(event) {
