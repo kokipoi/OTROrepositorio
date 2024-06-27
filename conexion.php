@@ -3,13 +3,13 @@
 
 $conexion = mysqli_connect("localhost","root","","proyectonota");
 
-/*/
+
 if($conexion){
-    echo "conexion no";
-} else {
     echo "conexion si";
+} else {
+    echo "conexion no";
 }
-*/
+
 
 
 

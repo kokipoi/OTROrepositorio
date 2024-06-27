@@ -41,12 +41,12 @@
         </div>
         <div class="space3" style="background-color:  rgb(192, 245, 252);"></div>
         <div class="plain1">
-        <form class="form">
+        <form class="form" action="contacto.php" method="POST">
             <div class="title">Contacta con nosotros</div>
             <label for="email">Email:</label>
-            <input class="input-style" type="email" id="email" name="email" required>
-            <textarea placeholder="Su mensaje"></textarea>
-            <a href="algo.html"><button >Enviar</button></a>
+            <input class="input-style" type="email" id="email" name="email">
+            <input class="input-style" type="text" id="mensaje" name="mensaje">
+            <button id="submit" class="btn btn-success mt-2">Enviar</button>
         </form>
     </div>
         </div>
